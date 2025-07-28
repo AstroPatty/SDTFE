@@ -33,5 +33,5 @@ jobs:
           python -m pip install .
       - name: Test import
         run: |
-          cd ..
+          cd /home/runner
           python python -c "import pydtfe"
