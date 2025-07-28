@@ -30,7 +30,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Build Project
         run: |
-          pip install .
+          python -m pip install .
       - name: Test import
         run: |
           cd ..
