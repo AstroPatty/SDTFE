@@ -31,3 +31,6 @@ jobs:
       - name: Build Project
         run: |
           pip install .
+      - name: Test import
+        run: |
+          python python -c "import pydtfe"
