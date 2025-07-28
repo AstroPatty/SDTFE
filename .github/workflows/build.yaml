@@ -33,4 +33,5 @@ jobs:
           pip install .
       - name: Test import
         run: |
+          cd ..
           python python -c "import pydtfe"
