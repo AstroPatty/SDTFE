@@ -16,7 +16,7 @@ include(FetchContent)
 FetchContent_Declare(
     qhull
     GIT_REPOSITORY https://github.com/qhull/qhull.git
-    GIT_TAG 2020.2
+    GIT_TAG v8.0.2
 )
 FetchContent_GetProperties(qhull)
 if(NOT qhull_POPULATED)
