@@ -10,7 +10,8 @@ docs = [
     "Sphinx",
     "sphinx-rtd-theme",
     "sphinxcontrib-napoleon",
-    "numpydoc myst-parser",
+    "numpydoc",
+    "myst-parser"
 ]
 
 [build-system]
