@@ -8,8 +8,8 @@ jobs:
   build-library:
     runs-on: ${{ matrix.os }}
     strategy:
-    matrix:
-      os: [ubuntu-latest, macos-latest]
+      matrix:
+        os: [ubuntu-latest, macos-latest]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
